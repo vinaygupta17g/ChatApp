@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/receiver_bg"
+    android:maxHeight="400dp"
+    android:minHeight="30dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/recvmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:maxHeight="400dp"
+        android:maxWidth="200dp"
+        android:minWidth="50dp"
+        android:text="TextView"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/recvtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recvmsg"
+        android:layout_alignRight="@+id/recvmsg"
+        android:text="12:00 PM"
+        android:textSize="10dp"
+        android:textColor="@color/black"/>
+</RelativeLayout>

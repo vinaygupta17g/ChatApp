@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "216798053821",
+    "project_id": "vinay-chatapp-34fd7",
+    "storage_bucket": "vinay-chatapp-34fd7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216798053821:android:94556f0dfd8665442b7ed4",
+        "android_client_info": {
+          "package_name": "com.vinay.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjqCKjVv7EY_cbVtgkA0hsZq8yfwZ8wBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
