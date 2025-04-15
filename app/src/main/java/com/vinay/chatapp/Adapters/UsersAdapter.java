@@ -2,17 +2,13 @@ package com.vinay.chatapp.Adapters;
 
 import android.content.Context;
 import android.content.Intent;
-import android.media.Image;
-import android.provider.ContactsContract;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -22,7 +18,6 @@ import com.squareup.picasso.Picasso;
 import com.vinay.chatapp.ChatDetailActivity;
 import com.vinay.chatapp.Models.Users;
 import com.vinay.chatapp.R;
-
 import java.util.ArrayList;
 public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.viewHolder>{
 ArrayList<Users> list;
@@ -38,7 +33,6 @@ Context context;
         View view=LayoutInflater.from(context).inflate(R.layout.chat_sample,parent,false);
         return new viewHolder(view);
     }
-
     @Override
     public void onBindViewHolder(@NonNull viewHolder holder, int position) {
         Users users=list.get(position);
@@ -58,7 +52,6 @@ Context context;
                     }
                 }
             }
-
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
 
@@ -74,9 +67,7 @@ Context context;
                 context.startActivity(intent);
             }
         });
-
     }
-
     @Override
     public int getItemCount() {
         return list.size();

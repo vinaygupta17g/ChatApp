@@ -24,7 +24,6 @@ public class FollowAdapter extends RecyclerView.Adapter<FollowAdapter.viewHolder
 {
     ArrayList<Users> list;
     Context context;
-
     public FollowAdapter(ArrayList<Users> list, Context context) {
         this.list = list;
         this.context = context;
