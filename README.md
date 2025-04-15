@@ -1,4 +1,5 @@
 ChapApp
+
 ChapApp is a messaging and social networking application that allows users to connect, communicate, and follow each other. Whether you're looking to chat with friends, build your network, or explore new connections, ChapApp provides a seamless and engaging experience.
 Features
 - Messaging: Send and receive instant messages with friends and followers.
