@@ -47,7 +47,6 @@ public class ChatDetailActivity extends AppCompatActivity {
             binding.username.setText(username+" (You)");
         else
             binding.username.setText(username);
-        //back button
         binding.back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -56,7 +55,7 @@ public class ChatDetailActivity extends AppCompatActivity {
                 finish();
             }
         });
-        MessageAdapter adapter=new MessageAdapter(message,this);
+        MessageAdapter adapter=new MessageAdapter(message,this,receiverid);
         binding.msgrecyclerView.setAdapter(adapter);
 
         LinearLayoutManager manager=new LinearLayoutManager(this);
