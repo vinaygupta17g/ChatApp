@@ -41,7 +41,6 @@ public class MyFollowerAdapter extends RecyclerView.Adapter<MyFollowerAdapter.vi
             FirebaseDatabase.getInstance().getReference().child("Users").child(follower.getFollowedby()).addValueEventListener(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
-                    Toast.makeText(context, follower.getFollowedby()+"", Toast.LENGTH_SHORT).show();
                     Users user=snapshot.getValue(Users.class);
                     Picasso.get().load(user.getProfilepic()).placeholder(R.drawable.placeuser).into(holder.binding.profile);
                 }
