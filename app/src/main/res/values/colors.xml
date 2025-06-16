@@ -8,7 +8,33 @@
         <!-- Primary Gradient Colors -->
         <color name="gradient_start">#1a2a6c</color> <!-- Deep blue -->
         <color name="gradient_end">#b21f1f</color>   <!-- Rich red -->
-        <color name="gradient_middle">#fdbb2d</color> <!-- Vibrant yellow/gold -->
-        <color name="text_secondary">#CCCCCC</color> <!-- Light gray for secondary text -->
+        <color name="gradient_middle">#fdbb2d</color>
         <color name="blue">#0000FF</color>
+
+                <!-- Background Gradient -->
+                <color name="gradient_start_blue">#42A5F5</color> <!-- Light Blue -->
+                <color name="gradient_end_indigo">#3F51B5</color>  <!-- Indigo -->
+
+                <!-- Cover Image Overlay -->
+                <color name="cover_overlay_start">#00000000</color> <!-- Transparent -->
+                <color name="cover_overlay_end">#80000000</color>   <!-- 50% Black -->
+
+                <!-- Card Background -->
+                <color name="card_background_light">#FFFFFF</color>
+
+                <!-- Text Colors -->
+                <color name="text_primary">#212121</color>  <!-- Dark Gray -->
+                <color name="text_secondary">#757575</color> <!-- Medium Gray -->
+                <color name="text_accent">#E91E63</color>   <!-- Deep Pink (for active elements) -->
+
+                <!-- Icon Colors -->
+                <color name="icon_color_light">#FFFFFF</color>
+                <color name="icon_color_dark">#212121</color>
+                <color name="icon_color_primary">#42A5F5</color> <!-- Matches gradient start -->
+                <color name="icon_color_accent">#FFC107</color>  <!-- Amber -->
+
+                <!-- Logout Button Colors -->
+                <color name="logout_button_normal">#F44336</color>  <!-- Red -->
+                <color name="logout_button_pressed">#D32F2F</color> <!-- Darker Red -->
+                <color name="logout_button_text_color">#FFFFFF</color>
 </resources>
