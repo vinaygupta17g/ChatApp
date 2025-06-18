@@ -8,7 +8,8 @@
     android:background="@android:color/black"
     tools:context=".SignUpActivity"
     android:orientation="vertical"
-    android:padding="20dp"> <de.hdodenhof.circleimageview.CircleImageView
+    android:padding="20dp">
+    <de.hdodenhof.circleimageview.CircleImageView
     android:layout_width="100dp" android:layout_height="100dp"
     android:src="@drawable/placeuser"
     app:civ_border_color="#F0F0F0" android:layout_gravity="center_horizontal" android:layout_marginTop="80dp" android:layout_marginBottom="40dp" app:civ_border_width="2dp"/>
@@ -22,7 +23,7 @@
         android:gravity="center_vertical"> <ImageView
         android:layout_width="24dp" android:layout_height="24dp"
         android:src="@drawable/placeuser"
-        android:tint="@color/icon_color" android:layout_marginStart="10dp"
+        android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"/>
 
         <EditText
@@ -44,7 +45,7 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:src="@drawable/telephone"
-            android:tint="@color/icon_color"
+            app:tint="@color/icon_color"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"/>
         <EditText
@@ -72,7 +73,7 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:src="@drawable/mail"
-            android:tint="@color/icon_color"
+            app:tint="@color/icon_color"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"/>
         <EditText
@@ -101,7 +102,7 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:src="@drawable/padlock"
-            android:tint="@color/icon_color"
+            app:tint="@color/icon_color"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"/>
         <EditText
@@ -129,8 +130,9 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/signup"
-        android:layout_width="250dp" android:layout_height="wrap_content"
-        android:minHeight="55dp" android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="50dp"
         android:textSize="20sp"
         android:textColor="@android:color/white"
