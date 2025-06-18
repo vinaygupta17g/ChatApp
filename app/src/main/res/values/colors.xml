@@ -37,4 +37,5 @@
                 <color name="logout_button_normal">#F44336</color>  <!-- Red -->
                 <color name="logout_button_pressed">#D32F2F</color> <!-- Darker Red -->
                 <color name="logout_button_text_color">#FFFFFF</color>
+                <color name="icon_color">#CCCCCC</color>
 </resources>
