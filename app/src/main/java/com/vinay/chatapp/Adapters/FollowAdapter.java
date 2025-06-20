@@ -45,8 +45,13 @@ public class FollowAdapter extends RecyclerView.Adapter<FollowAdapter.viewHolder
                 if(snapshot.exists())
                 {
                     holder.binding.follow.setText("following");
-                    holder.binding.follow.setEnabled(false);
                     holder.binding.follow.setBackgroundDrawable(ContextCompat.getDrawable(context,R.drawable.following_bg));
+                    holder.binding.follow.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View view) {
+                            holder.binding.follow.setText("follow");
+                        }
+                    });
                 }
                 else
                 {
