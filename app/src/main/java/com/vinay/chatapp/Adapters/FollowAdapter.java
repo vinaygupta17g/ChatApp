@@ -20,8 +20,7 @@ import com.vinay.chatapp.R;
 import com.vinay.chatapp.databinding.FollowsAmpleBinding;
 import java.util.ArrayList;
 import java.util.Date;
-public class FollowAdapter extends RecyclerView.Adapter<FollowAdapter.viewHolder>
-{
+public class FollowAdapter extends RecyclerView.Adapter<FollowAdapter.viewHolder> {
     ArrayList<Users> list;
     Context context;
     public FollowAdapter(ArrayList<Users> list, Context context) {
