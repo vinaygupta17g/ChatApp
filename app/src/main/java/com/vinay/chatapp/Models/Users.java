@@ -35,15 +35,6 @@ public class Users
         this.email = email;
         this.password = password;
     }
-    public Users(String uid, String username, String mobile, String email, String password, String lastmessage, String profilepic) {
-        this.uid = uid;
-        this.username = username;
-        this.mobile = mobile;
-        this.email = email;
-        this.password = password;
-        this.lastmessage = lastmessage;
-        this.profilepic = profilepic;
-    }
     public Users(){}
 
     public String getUid() {

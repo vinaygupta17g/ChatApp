@@ -18,12 +18,6 @@ public class MessageModel {
         this.message = message;
         this.timestamp = timestamp;
     }
-
-    public MessageModel(String uid, String message) {
-        this.uid = uid;
-        this.message = message;
-    }
-
     public String getUid() {
         return uid;
     }
