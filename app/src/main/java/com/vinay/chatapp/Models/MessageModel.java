@@ -2,11 +2,9 @@ package com.vinay.chatapp.Models;
 
 public class MessageModel {
     String uid,message,timestamp,msgid;
-
     public String getMsgid() {
         return msgid;
     }
-
     public void setMsgid(String msgid) {
         this.msgid = msgid;
     }
