@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         ChatFragment fragment=new ChatFragment();
         FollowFragment fragment1=new FollowFragment();
         FragmentTransaction transaction=getSupportFragmentManager().beginTransaction();
-        transaction.replace(R.id.layout,fragment);
+        transaction.replace(R.id.layout,fragment1);
         transaction.commit();
         binding.chats.setOnClickListener(new View.OnClickListener() {
             @Override
