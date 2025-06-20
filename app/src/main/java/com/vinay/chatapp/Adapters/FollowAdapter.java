@@ -50,6 +50,7 @@ public class FollowAdapter extends RecyclerView.Adapter<FollowAdapter.viewHolder
                         @Override
                         public void onClick(View view) {
                             holder.binding.follow.setText("follow");
+                            holder.binding.follow.setBackgroundDrawable(ContextCompat.getDrawable(context,R.drawable.button_bg));
                         }
                     });
                 }
