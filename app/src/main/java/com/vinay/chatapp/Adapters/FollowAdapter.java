@@ -51,6 +51,17 @@ public class FollowAdapter extends RecyclerView.Adapter<FollowAdapter.viewHolder
                         public void onClick(View view) {
                             holder.binding.follow.setText("follow");
                             holder.binding.follow.setBackgroundDrawable(ContextCompat.getDrawable(context,R.drawable.button_bg));
+                            FirebaseDatabase.getInstance().getReference().child("Users").child(user.getUid()).child("follower").child(FirebaseAuth.getInstance().getUid()).setValue(null).addOnSuccessListener(new OnSuccessListener<Void>() {
+                                @Override
+                                public void onSuccess(Void unused) {
+                                    FirebaseDatabase.getInstance().getReference().child("Users").child(user.getUid()).child("followercount").setValue(user.getFollowercount()-1).addOnSuccessListener(new OnSuccessListener<Void>() {
+                                        @Override
+                                        public void onSuccess(Void unused) {
+                                            Toast.makeText(context, "You unfollowed followed "+user.getUsername(), Toast.LENGTH_SHORT).show();
+                                        }
+                                    });
+                                }
+                            });
                         }
                     });
                 }
