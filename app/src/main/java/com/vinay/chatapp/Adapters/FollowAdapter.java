@@ -64,8 +64,7 @@ public class FollowAdapter extends RecyclerView.Adapter<FollowAdapter.viewHolder
                         }
                     });
                 }
-                else
-                {
+                else {
                     holder.binding.follow.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
