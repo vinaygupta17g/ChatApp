@@ -9,9 +9,6 @@ public class Follower {
     public void setFollowedby(String followedby) {
         this.followedby = followedby;
     }
-    public Long getFollowedat() {
-        return followedat;
-    }
     public void setFollowedat(Long followedat) {
         this.followedat = followedat;
     }
